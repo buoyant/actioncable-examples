@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/rails/coffee-rails.git
+  remote: http://github.com/rails/coffee-rails.git
   revision: 29604a59a5d7ea314f54bb52302d68ef134806bf
   specs:
     coffee-rails (4.1.1)
@@ -7,26 +7,26 @@ GIT
       railties (>= 4.0.0, < 5.1.x)
 
 GIT
-  remote: git://github.com/rails/sprockets-rails.git
-  revision: 193e80cd1d682ab9f5b9e9c37de69910c7bdd5dd
+  remote: http://github.com/rails/sprockets-rails.git
+  revision: 210be82fd4b65b60a124a83d0bbce35ef9887250
   specs:
-    sprockets-rails (3.0.3)
+    sprockets-rails (3.0.4)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
 
 GIT
-  remote: git://github.com/rails/turbolinks.git
-  revision: dd31f4b2996f2300631f89339ada82c65b95f4c2
+  remote: http://github.com/rails/turbolinks.git
+  revision: 37a7c296232d20a61bd1946f600da7f2009189db
   specs:
     turbolinks (3.0.0)
       coffee-rails
 
 GIT
-  remote: git://github.com/rails/web-console.git
-  revision: 6aa9dd67b8f8dc1111ba6b34bb575b0355ee259b
+  remote: http://github.com/rails/web-console.git
+  revision: deffb651030f1f3f1dd3222e9b68b3d41353a65f
   specs:
-    web-console (3.0.0)
+    web-console (3.1.1)
       activemodel (>= 4.2)
       debug_inspector
       railties (>= 4.2)

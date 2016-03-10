@@ -1,7 +1,12 @@
-<h1>Authenticate as one of the following users</h1>
+<h1>Enter your chat name</h1>
 
-<ul>
-  <% @users.each do |user| %>
-    <li><%= link_to user.name, session_url(user_id: user.id), method: :post %></li>
-  <% end %>
-</ul>
+<%= form_for User.new, url: session_url(method: :post) do |f| %>
+  <%= f.text_field :name %><br>
+  <%= f.submit 'Enter Chat' %>
+<% end %>
+
+<!-- <ul>
+  <%# @users.each do |user| %>
+    <li><%#= link_to user.name, session_url(user_id: user.id), method: :post %></li>
+  <%# end %>
+</ul> -->

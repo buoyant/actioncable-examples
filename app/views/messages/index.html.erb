@@ -1,7 +1,12 @@
 <h1>Messages</h1>
 
-<ul>
+<ul id='messages-list'>
   <% @messages.each do |message| %>
-    <li><%= link_to message.title, message %></li>
+    <%= render message %>
   <% end %>
 </ul>
+
+
+<div id="new_message">
+  <%= render partial: 'form' %>
+</div>

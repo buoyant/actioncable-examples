@@ -1,0 +1,4 @@
+$('#notes-list').append('<%=j render 'examples/note', note: @note %>');
+$('#new_note').replaceWith('<%=j render 'examples/form' %>');
+$('#notes-list').children('p').first().remove();
+$('#note_content').focus();

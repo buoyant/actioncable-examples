@@ -8,3 +8,13 @@
 <ul>
   <li><%= link_to 'Messages with live comments', messages_path %></li>
 </ul>
+
+<section id="notes-list" style="border: 1px solid">
+  <% @notes.each do |note| %>
+    <%= render partial: 'examples/note', :locals => { note: note } %>
+  <% end %>
+</section>
+
+<div id="new_note">
+  <%= render partial: 'form' %>
+</div>

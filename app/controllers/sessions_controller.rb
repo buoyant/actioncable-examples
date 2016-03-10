@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
   end
 
   def create
-    authenticate_user(params[:user_id])
+    authenticate_user(params[:user])
     redirect_to examples_url
   end
 

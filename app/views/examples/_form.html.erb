@@ -1,0 +1,4 @@
+<%= form_for Note.new, url: examples_url(method: :post), remote: true do |f| %>
+	<%= f.text_field :content, autofocus: true %><br>
+	<%#= f.submit 'Enter Chat' %>
+<% end %>
